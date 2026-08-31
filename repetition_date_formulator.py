@@ -35,7 +35,7 @@ while True:
 month = base_date.month
 day = base_date.day
 max_day = calendar.monthrange(base_date.year, month)[1]
-# 無可被安排日期
+# 無可安排日期
 if (day + repet_day > max_day) : print("本月已無足夠天數可被安排！")
 # 重複安排日期
 weekdays = ["星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日"]
