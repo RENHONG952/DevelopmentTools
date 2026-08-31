@@ -13,5 +13,5 @@ for i in text:
     else:
         symbol += 1
 
-# 輸出計算結果
+# 輸出結果
 print(f"- 總字數 : {len(text)}\n- 文字數 : {char}\n- 數字數 : {digit}\n- 空格數 : {space}\n- 符號數 : {symbol}")
