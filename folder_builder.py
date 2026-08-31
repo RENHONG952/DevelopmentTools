@@ -1,6 +1,6 @@
 from pathlib import Path
 
-# 鎖定位置
+# 鎖定路徑
 desktop = Path.home() / "Desktop"
 
 # 建立資料夾
