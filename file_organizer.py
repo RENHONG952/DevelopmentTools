@@ -41,7 +41,7 @@ for file in path.iterdir():
                 file.rename(target_folder / file.name)
                 moved = True
                 break
-        # 找不到對應的副檔名
+        # 找不到對應副檔名
         if not moved:
             other_folder = path / "others"
             other_folder.mkdir(exist_ok=True)
