@@ -44,7 +44,7 @@ while True:
     else:
         print("請輸入正確的金額或指令！")
 
-# 計算所有人的總消費金額
+# 計算所有人的消費金額
 print()
 for i in range(len(fees)):
     total = sum(fees[i])
