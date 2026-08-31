@@ -11,7 +11,7 @@ while True:
     except ValueError:
         print("無效的 IP 位址！")
 
-# 呼叫 nmap 執行對應指令
+# 呼叫 nmap 執行指令
 result = subprocess.run(["nmap", "-sV", "-oX", "-", ip], capture_output = True, text = True)
 if result.returncode != 0:
     print(result.stderr)
