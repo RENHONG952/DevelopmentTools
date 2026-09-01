@@ -3,7 +3,7 @@ while True:
     try:
         weight = float(input("請輸入體重 : "))
         if weight <= 0:
-            print("體重必須大於零，否則無法正確計算！")
+            print("體重必須大於零，才可以正確計算！")
             continue
         break
     except ValueError:
