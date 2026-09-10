@@ -46,4 +46,4 @@ for file in path.iterdir():
             other_folder = path / "others"
             other_folder.mkdir(exist_ok=True)
             file.rename(other_folder / file.name)
-print("檔案整理完成！")
+print("整理完成！")
