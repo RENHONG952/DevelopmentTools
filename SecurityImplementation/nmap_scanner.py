@@ -9,7 +9,7 @@ while True:
         ipaddress.ip_address(ip)
         break
     except ValueError:
-        print("無效的 IP 位址！")
+        print("無效 IP 位址！")
 
 # 呼叫 nmap 執行指令
 result = subprocess.run(["nmap", "-sV", "-oX", "-", ip], capture_output = True, text = True)
