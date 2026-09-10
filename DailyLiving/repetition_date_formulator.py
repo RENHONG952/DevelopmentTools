@@ -23,7 +23,7 @@ while True:
 # 重複安排天數
 while True:
     try:
-        repet_day = int(input("請輸入要重複安排的天數 : "))
+        repet_day = int(input("請輸入要重複安排天數 : "))
         if repet_day <= 0:
             print("重複天數必須大於零!")
             continue
