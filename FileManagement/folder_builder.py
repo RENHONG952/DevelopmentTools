@@ -11,7 +11,7 @@ while True:
         folder.mkdir(exist_ok=False)
         break
     except FileExistsError:
-        print("資料夾已存在，請重新輸入名稱！")
+        print("資料夾已存在，請重新輸入！")
         
 # 建立多個副資料夾
 subfolder_name = ["folder_" + str(i) for i in range(1, 11)]
