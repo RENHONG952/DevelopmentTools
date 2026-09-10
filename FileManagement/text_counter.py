@@ -1,5 +1,5 @@
 # 輸入文字內容
-text = input("請輸入要計算數量的內容 : ")
+text = input("請輸入要計算的內容 : ")
 
 # 計算數量
 char, digit, space, symbol = 0, 0, 0, 0
