@@ -92,7 +92,7 @@ for length in range(1, max_password_length + 1):
             print(f"正在嘗試第 {count} 種密碼組合 : {password_str}")
         # 成功破解密碼
         if password_str == target_password:
-            print(f"\n密碼已破解 : {password_str} / 總共嘗試了 {count} 種密碼組合，共計耗時 {time.time() - start_time:.2f} 秒。")
+            print(f"\n密碼已破解 : {password_str} / 總共嘗試 {count} 種密碼組合，共計耗時 {time.time() - start_time:.2f} 秒。")
             success = True
             break
     # 結束程式
