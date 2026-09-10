@@ -1,6 +1,6 @@
 # 服務費選項確認
 while True:
-    server_fee = input("是否包含額外服務費 ? (Y/N) : ").lower()
+    server_fee = input("是否包含服務費 ? (Y/N) : ").lower()
     if server_fee == "y":
         try:
             with_service_fee = True
